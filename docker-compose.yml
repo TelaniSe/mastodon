@@ -23,7 +23,7 @@ services:
     volumes:
       - ./redis:/data
 
-  # es:
+  es:
   #   restart: always
   #   image: docker.elastic.co/elasticsearch/elasticsearch:7.17.4
   #   environment:
